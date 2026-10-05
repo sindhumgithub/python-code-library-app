@@ -18,6 +18,7 @@ docker run -d --name frontend  -p 5000:5000 --network mynet  appimage <br />
 
  <img width="1402" height="1000" alt="image" src="https://github.com/user-attachments/assets/c185936d-35ac-4422-b2ca-9443f19f475e" />
 
-The Final Application Access:
+
+**The Final Application Access:**
 <img width="1636" height="922" alt="image" src="https://github.com/user-attachments/assets/debbee26-161c-48c8-aa78-1011a13b393d" />
 
