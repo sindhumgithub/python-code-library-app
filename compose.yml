@@ -1,7 +1,7 @@
 ---
 services:
   db:
-    image: shaikmustafa/arshad:db
+    image: muddanadevops/pyapp:db_image
     deploy:
       replicas: 1
     ports:
@@ -10,7 +10,7 @@ services:
       - mynetwork
 
   auth_service:
-    image: shaikmustafa/arshad:auth
+    image: muddanadevops/pyapp:auth_image
     deploy:
       replicas: 1
     ports:
@@ -22,7 +22,7 @@ services:
     
 
   book_service:
-    image: shaikmustafa/arshad:book
+    image: muddanadevops/pyapp:book_image
     deploy:
       replicas: 1
     ports:
@@ -32,7 +32,7 @@ services:
     depends_on:
       - db
   borrow_service:
-    image: shaikmustafa/arshad:borrow
+    image: muddanadevops/pyapp:borrow_image
     deploy:
       replicas: 1
     ports:
@@ -43,7 +43,7 @@ services:
       - db
 
   frontend:
-    image: shaikmustafa/arshad:frontend
+    image: muddanadevops/pyapp:frontend
     deploy:
       replicas: 1
     ports:
