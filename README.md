@@ -16,4 +16,5 @@ docker run -d --name book_service -p 5002:5002 --network mynet bookimage <br />
 docker run -d --name borrow_service  -p 5003:5003 --network mynet borrowimage <br />
 docker run -d --name frontend  -p 5000:5000 --network mynet  appimage <br /> 
 
- 
+ <img width="1402" height="1000" alt="image" src="https://github.com/user-attachments/assets/c185936d-35ac-4422-b2ca-9443f19f475e" />
+
